@@ -65,19 +65,20 @@ background: linear-gradient(0deg, rgba(187,210,197,1) 0%, rgba(92,101,95,1) 33%,
 }
 
 .modal-window>div {
-    width: 75%;
+    width: 60%;
     position: absolute;
-    margin-top: 5%;
     left: 50%;
     transform: translate(-50%);
     padding: 2%;
     background: #ffffff;
+    border-top: #daa700 solid 5px;
 }
 
 .modal-window h1 {
     font-size: 2em;
     margin: 0 0 15px;
     font-weight: bolder;
+    margin-top: 40px;
 }
 
 .project-expand {
@@ -121,10 +122,9 @@ background: linear-gradient(0deg, rgba(187,210,197,1) 0%, rgba(92,101,95,1) 33%,
     color: #aaa;
     line-height: 50px;
     font-size: 80%;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 0;
+    position: sticky;
+    top: 25%;
+    left: 500%;
     width: 70px;
     text-decoration: none;
     
@@ -157,6 +157,12 @@ background: linear-gradient(0deg, rgba(187,210,197,1) 0%, rgba(92,101,95,1) 33%,
       .modal-window>div {
           width: 90%;
       }
+
+      .modal-close {
+        padding: 10px;
+        background-color: white;
+        border-radius: 50%;
+    }
   }
   
   @media (max-width: 549px) {

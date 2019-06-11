@@ -10,11 +10,12 @@
 
 .contato .title {
     color: #0D1B2A;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .tel_end {
     max-width: 100%; 
+    text-align: center;
 }
 
 .tel_end p {

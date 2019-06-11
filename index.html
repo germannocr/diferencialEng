@@ -18,26 +18,20 @@
 
 <body>
 	<header>
-		<section class="row" style="background-color:black">
-			<div class=" logo" style="float: left;">
-				<img src="assets/images/logo.png" >
-			</div>
+		<nav id="header" class="main-nav">
 
-			<div class="topnav" id="myTopnav">
+			<img src="assets/images/logo.png" class="logo" alt="logo">
 
-				<a href="javascript:void(0);" id="menu_btn" style="font-size:15px;" class="icon"
-					onclick="myFunction()">&#9776;</a>
-				<a href="#sobre">Sobre</a>
-				<div class="dropdown">
-					<button class="dropbtn">Portfólio<i class="fa fa-caret-down"></i></button>
-					<div class="dropdown-content">
-						<a href="#residencial">Residencial</a>
-						<a href="#comercial">Comercial</a>
-					</div>
-				</div>
-				<a href="#contato">Contato</a>
-			</div>
-		</section>
+			<ul class="menu grow ul-menu">
+				<li class="close">&times;</li>
+				<li><a href="">Sobre</a></li>
+				<li><a href="">Portfólio</a></li>
+				<li><a href="">Contato</a></li>
+			</ul>
+
+			<span class="mobile-btn">&#x2261;</span>
+
+		</nav>
 	</header>
 	<section class="banner-principal">
 		<div class="container">
@@ -50,23 +44,20 @@
 		<div class="container">
 			<div class="sobre-texto">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis nisl quis mi mattis fringilla
-					sed
-					sed velit. Donec nibh sapien, vestibulum nec sem vitae, mattis semper leo.
+					A Diferencial Engenharia é uma Empresa especializada em projetos e execução de Instalações Prediais.  Desde 2010 no mercado, trabalhamos em Empreendimentos Comerciais e Residenciais.
 				</p>
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis nisl quis mi mattis fringilla
-					sed
-					sed velit. Donec nibh sapien, vestibulum nec sem vitae, mattis semper leo.
+					Trabalhamos com Instalações Elétricas, Gás, Sanitárias, Hidráulica e Especiais (Telefone, Antena, CFTV, Lógica, Alarme Perimetral - Tubulação Seca).
 				</p>
 			</div>
 		</div>
 	</section>
 	<main class="portfolio">
-		<section class="residencial" id="residencial">
+		<section class="residencial" id="portfolio">
 			<div class="container">
-				<h2 class="title"> Portfólio Residencial</h1>
+				<!--<h2 class="title"> Portfólio Residencial</h2>-->
+				<h2 class="title"> PORTFÓLIO</h2>
 					<section class="project-row">
 						<div class="row">
 							<div class="project four columns">
@@ -74,7 +65,7 @@
 										src="assets/images/pSantarem_mini.jpg" /></a>
 								<div id="santarem-modal" class="modal-window">
 									<div>
-										<a href="#residencial" title="Close" class="modal-close">Fechar</a>
+										<a href="#residencial" title="Close" class="modal-close">❌</a>
 										<h1>Parador Santarem</h1>
 										<div><img class="project-expand" src="assets/images/pSantarem.jpg"></div>
 										<div class="divisor"></div>
@@ -90,7 +81,7 @@
 										src="assets/images/giardinoDiVerona_mini.JPG" id="verona"/></a>
 								<div id="verona-modal" class="modal-window">
 									<div>
-										<a href="##verona" title="Close" class="modal-close">Fechar</a>
+										<a href="##verona" title="Close" class="modal-close">❌</a>
 										<h1>Giardino Di Verona</h1>
 										<div><img class="project-expand" src="assets/images/giardinoDiVerona.JPG"></div>
 										<div class="divisor"></div>
@@ -106,7 +97,7 @@
 										src="assets/images/jardinPlage_mini.JPG" id="jardim"/></a>
 								<div id="plage-modal" class="modal-window">
 									<div>
-										<a href="#jardim" title="Close" class="modal-close">Fechar</a>
+										<a href="#jardim" title="Close" class="modal-close">❌</a>
 										<h1>Jardim De Plage</h1>
 										<div><img class="project-expand" src="assets/images/jardinPlage.JPG"></div>
 										<div class="divisor"></div>
@@ -126,7 +117,7 @@
 										src="assets/images/corDeBuzios_mini.jpg" id="corBuzios"/> </a>
 								<div id="corBuzios-modal" class="modal-window">
 									<div>
-										<a href="#corBuzios" title="Close" class="modal-close">Fechar</a>
+										<a href="#corBuzios" title="Close" class="modal-close">❌</a>
 										<h1>Condomínio Cor de Búzios</h1>
 										<div><img class="project-expand" src="assets/images/corDeBuzios.jpg"></div>
 										<div class="divisor"></div>
@@ -142,7 +133,7 @@
 										src="assets/images/condominioBuzios_mini.jpg " id="condBuzios" /> </a>
 								<div id="condominioBuzios-modal" class="modal-window">
 									<div>
-										<a href="#condBuzios" title="Close" class="modal-close">Fechar</a>
+										<a href="#condBuzios" title="Close" class="modal-close">❌</a>
 										<h1>Condomínio Búzios</h1>
 										<div><img class="project-expand" src="assets/images/condominioBuzios.jpg"></div>
 										<div class="divisor"></div>
@@ -158,7 +149,7 @@
 										src="assets/images/casaJardimUba_mini.jpg" id="uba" /> </a>
 								<div id="uba-modal" class="modal-window">
 									<div>
-										<a href="#uba" title="Close" class="modal-close">Fechar</a>
+										<a href="#uba" title="Close" class="modal-close">❌</a>
 										<h1>Casa Jardim Ubá</h1>
 										<div><img class="project-expand" src="assets/images/casaJardimUba.jpg"></div>
 										<div class="divisor"></div>
@@ -179,7 +170,7 @@
 								</a>
 								<div id="barraDreams-modal" class="modal-window">
 									<div>
-										<a href="#barraDreams" title="Close" class="modal-close">Fechar</a>
+										<a href="#barraDreams" title="Close" class="modal-close">❌</a>
 										<h1>Barra Dreams</h1>
 										<div><img class="project-expand" src="assets/images/residencialBarraDreams.jpg">
 										</div>
@@ -196,7 +187,7 @@
 										src="assets/images/cittaFloresta_mini.jpg " id="citta"/> </a>
 								<div id="citta-modal" class="modal-window">
 									<div>
-										<a href="#citta" title="Close" class="modal-close">Fechar</a>
+										<a href="#citta" title="Close" class="modal-close">❌</a>
 										<h1>Citta Floresta</h1>
 										<div><img class="project-expand" src="assets/images/cittaFloresta.jpg"></div>
 										<div class="divisor"></div>
@@ -213,7 +204,7 @@
 										src="assets/images/casaEspetaculo_mini.jpg" id="espetaculo"/> </a>
 								<div id="espetaculo-modal" class="modal-window">
 									<div>
-										<a href="#espetaculo" title="Close" class="modal-close">Fechar</a>
+										<a href="#espetaculo" title="Close" class="modal-close">❌</a>
 										<h1>Bora Bora Casa de Espetáculos</h1>
 										<div><img class="project-expand" src="assets/images/casaEspetaculo.jpg"></div>
 										<div class="divisor"></div>
@@ -233,7 +224,7 @@
 										src="assets/images/giardinoTrento_mini.jpg" id="trento" /> </a>
 								<div id="trento-modal" class="modal-window">
 									<div>
-										<a href="#trento" title="Close" class="modal-close">Fechar</a>
+										<a href="#trento" title="Close" class="modal-close">❌</a>
 										<h1>Giardino Di Trento</h1>
 										<div><img class="project-expand" src="assets/images/giardinoTrento.jpg"></div>
 										<div class="divisor"></div>
@@ -249,7 +240,7 @@
 										src="assets/images/riviera_mini.JPG" id="riviera"/> </a>
 								<div id="riviera-modal" class="modal-window">
 									<div>
-										<a href="#riviera" title="Close" class="modal-close">Fechar</a>
+										<a href="#riviera" title="Close" class="modal-close">❌</a>
 										<h1>Riviera Residences</h1>
 										<img class="project-expand gallery"
 											src="assets/images/riviera_imgs/riviera_01.png">
@@ -301,7 +292,7 @@
 										src="assets/images/confortSuites_mini.jpg " id="confort"/></a>
 								<div id="confortSuites-modal" class="modal-window">
 									<div>
-										<a href="#confort" title="Close" class="modal-close">Fechar</a>
+										<a href="#confort" title="Close" class="modal-close">❌</a>
 										<h1>Hotel Confort Suites</h1>
 										<div><img class="project-expand" src="assets/images/confortSuites.jpg"></div>
 										<div class="divisor"></div>
@@ -317,9 +308,9 @@
 					</section>
 			</div>
 		</section>
-		<section class="comercial" id="comercial">
+		<section class="comercial spacer" id="comercial">
 			<div class="container">
-				<h2 class="title"> Portfólio Comercial</h1>
+				<!--<h2 class="title"> Portfólio Comercial</h1>-->
 					<section class="project-row">
 						<div class="row">
 							<div class="project four columns">
@@ -327,7 +318,7 @@
 										src="assets/images/heliponto_mini.jpg" id="heliponto"/></a>
 								<div id="heliponto-modal" class="modal-window">
 									<div>
-										<a href="#heliponto" title="Close" class="modal-close">Fechar</a>
+										<a href="#heliponto" title="Close" class="modal-close">❌</a>
 										<h1>FGV Heliponto</h1>
 										<div><img class="project-expand" src="assets/images/heliponto.jpg"></div>
 										<div class="divisor"></div>
@@ -343,7 +334,7 @@
 										src="assets/images/parkMall_mini.jpg" id="mall"></a>
 								<div id="mall-modal" class="modal-window">
 									<div>
-										<a href="#mall" title="Close" class="modal-close">Fechar</a>
+										<a href="#mall" title="Close" class="modal-close">❌</a>
 										<h1>The Park Mall</h1>
 										<div><img class="project-expand" src="assets/images/parkMall.jpg"></div>
 										<div class="divisor"></div>
@@ -359,7 +350,7 @@
 										src="assets/images/sedePredialnet_mini.JPG" id="predial"/></a>
 								<div id="predial-modal" class="modal-window">
 									<div>
-										<a href="#predial" title="Close" class="modal-close">Fechar</a>
+										<a href="#predial" title="Close" class="modal-close">❌</a>
 										<h1>Sede PredialNet</h1>
 										<div><img class="project-expand" src="assets/images/sedePredialnet.JPG"></div>
 										<div class="divisor"></div>
@@ -379,7 +370,7 @@
 										src="assets/images/viaGenovaComerciale_mini.jpg" id="genova"/> </a>
 								<div id="genova-modal" class="modal-window">
 									<div>
-										<a href="#genova" title="Close" class="modal-close">Fechar</a>
+										<a href="#genova" title="Close" class="modal-close">❌</a>
 										<h1>Via Genova Comerciale</h1>
 										<div><img class="project-expand" src="assets/images/viaGenovaComerciale.jpg">
 										</div>
@@ -396,7 +387,7 @@
 										src="assets/images/charitas_mini.jpg " id="charitas"/> </a>
 								<div id="charitas-modal" class="modal-window">
 									<div>
-										<a href="#charitas" title="Close" class="modal-close">Fechar</a>
+										<a href="#charitas" title="Close" class="modal-close">❌</a>
 										<h1>Estacionamento Charitas</h1>
 										<div><img class="project-expand" src="assets/images/charitas.jpg"></div>
 										<div class="divisor"></div>
@@ -412,7 +403,7 @@
 										src="assets/images/eterj_mini.jpg" id="eterj"/> </a>
 								<div id="eterj-modal" class="modal-window">
 									<div>
-										<a href="#eterj" title="Close" class="modal-close">Fechar</a>
+										<a href="#eterj" title="Close" class="modal-close">❌</a>
 										<h1>ETERJ</h1>
 										<div><img class="project-expand" src="assets/images/eterj.jpg"></div>
 										<div class="divisor"></div>
@@ -432,7 +423,7 @@
 										src="assets/images/marizBarros_mini.jpg" id="mariz"/> </a>
 								<div id="mariz-modal" class="modal-window">
 									<div>
-										<a href="#mariz" title="Close" class="modal-close">Fechar</a>
+										<a href="#mariz" title="Close" class="modal-close">❌</a>
 										<h1>Mariz e Barros</h1>
 										<div><img class="project-expand" src="assets/images/marizBarros.jpg"></div>
 										<div class="divisor"></div>
@@ -444,11 +435,11 @@
 								</div>
 							</div>
 							<div class="project four columns">
-								<a class="btn" href="#rivComercial-modal"> <img class="project-miniature"
-										src="assets/images/riviera_mini.JPG" id="rivComercial"/> </a>
-								<div id="rivComercial-modal" class="modal-window">
+								<a class="btn" href="#rivieraC-modal"> <img class="project-miniature"
+										src="assets/images/riviera_mini.JPG" id="rivieraC"/> </a>
+								<div id="rivieraC-modal" class="modal-window">
 									<div>
-										<a href="#rivComercial" title="Close" class="modal-close">Fechar</a>
+										<a href="#rivieraC" title="Close" class="modal-close">❌</a>
 										<h1>Riviera Residences</h1>
 										<img class="project-expand gallery"
 											src="assets/images/riviera_imgs/riviera_01.png">
@@ -502,7 +493,7 @@
 										src="assets/images/amoedo_mini.jpg " id="amoedo"/></a>
 								<div id="amoedo-modal" class="modal-window">
 									<div>
-										<a href="#amoedo" title="Close" class="modal-close">Fechar</a>
+										<a href="#amoedo" title="Close" class="modal-close">❌</a>
 										<h1>Farme de Amoedo</h1>
 										<div><img class="project-expand" src="assets/images/amoedo.jpg"></div>
 										<div class="divisor"></div>
@@ -510,6 +501,7 @@
 										<h3> Tipologia: Comercial</h3>
 										<p> Características: 8 Salas + 1 Loja </p>
 										<h3> ATC: Retrofit </h3>
+										<a href="#amoedo" title="Close" class="modal-close">❌</a>
 									</div>
 								</div>
 							</div>
@@ -517,57 +509,63 @@
 			</div>
 		</section>
 	</main>
-	<section id="contato" class="contato">
+	<section id="contato" class="contato spacer">
 		<div class="container">
 			<h2 class="title">Contato</h2>
 			<div class="mapa">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10390.160339489254!2d-43.18788354358546!3d-22.969502124693406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fff867cdf99%3A0x97e28a466acef850!2sWindsor+Plaza+Hotel!5e0!3m2!1spt-BR!2sbr!4v1560080935539!5m2!1spt-BR!2sbr" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
-			<div class="row">
+			<div class="row spacer">
 				<div class="tel_end">
 					<div class="six columns telefone">
 						<h3>Telefone</h3>
-						<p> (xx) x xxxx-xxxx</p>
+						<p>(21) 988 950 299</p>
 
 					</div>
 					<div class="six columns endereco">
-						<h3>Endereço</h3>
-						<p> Lorem ipsum dolor sit amet, consectetur.</p>
+						<h3>E-mail</h3>
+						<p>contato@diferencia.com.br</p>
 					</div>
 				</div>
 			</div>
 			
-			<div class="divisor"></div>
+			<!--<div class="divisor"></div>-->
+
+			<div class="row">
+
+				<div class="twelve columns"><p style="text-align: center">Se preferir, envie sua mensagem.</p></div>
+			</div>
+			
 			<div class="formulario">
 				<form action="https://formsquash.io/f/00IMwMuEkF90wowxWaEg" method="POST">
 					<div class="row">
 						<div class="six columns">
-							<label for="user_nome">Seu nome: </label>
-							<input class="u-full-width" type="text" placeholder="Insira seu nome aqui" id="user_nome"
+							<label for="user_nome"></label>
+							<input class="u-full-width" type="text" placeholder="Nome" id="user_nome"
 								name="nome" required>
 						</div>
 						<div class="six columns">
-							<label for="user_email">Seu email: </label>
-							<input class="u-full-width" type="email" placeholder="Ex: fulano@beltrano.com"
+							<label for="user_email"></label>
+							<input class="u-full-width" type="email" placeholder="E-mail"
 								id="user_email" name="email" required>
 						</div>
 					</div>
 					<div class="row">
 						<div class="six columns">
-							<label for="user_fone">Seu telefone: </label>
-							<input class="u-full-width" type="number" placeholder="Insira seu telefone aqui"
+							<label for="user_fone"></label>
+							<input class="u-full-width" type="number" placeholder="Telefone"
 								id="user_nome" name="fone">
 						</div>
 						<div class="six columns">
-							<label for="user_nome">CEP: </label>
-							<input class="u-full-width" type="number" placeholder="Insira seu CEP aqui" id="user_nome"
+							<label for="user_nome"></label>
+							<input class="u-full-width" type="number" placeholder="Assunto" id="user_nome"
 								name="cep" required>
 						</div>
 					</div>
-					<label for="mensagem">Descreva sua solicitação de orçamento:</label>
-					<textarea class="u-full-width" placeholder="Olá, eu gostaria de..." id="mensagem"
+					<label for="mensagem"></label>
+					<textarea class="u-full-width" placeholder="Mensagem" id="mensagem"
 						name="mensagem"></textarea>
-					<input type="submit" value="Submit" class="formButton" required>
+					<input type="submit" value="Enviar" class="formButton" required>
 				</form>
 			</div>
 		</div>
@@ -575,24 +573,28 @@
 
 	<footer class="rodape">
 		<p>&copy Diferencial Engenharia</p>
-		<p>Todos os direitos reservados.</p>
+		
 	</footer>
 
 
 
 
 	<script>
-		function myFunction() {
-			var x = document.getElementById("myTopnav");
-			var menu_btn = document.getElementById("menu_btn");
-			if (x.className === "topnav") {
-				x.className += " responsive";
-				menu_btn.innerHTML = 'X';
-			} else {
-				x.className = "topnav";
-				menu_btn.innerHTML = "&#9776";
-			}
-		}
+		// Hamburguer Menu Nav
+		var mobileBtn = document.querySelector('.mobile-btn');
+				var menu = document.querySelector('.menu');
+				var closeBtn = document.querySelector('.close');
+				//var overlay = document.querySelector('.overlay');
+
+				mobileBtn.addEventListener('click', function () {
+					menu.className += ' open';
+					//overlay.className += ' open';
+				})
+
+				closeBtn.addEventListener('click', function () {
+					menu.className = 'menu ul-menu';
+					overlay.className = 'overlay';
+				})
 	</script>
 </body>
 
