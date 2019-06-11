@@ -457,12 +457,17 @@ h1{
   }
 }
 
-@media (min-width: 407px) and (max-width: 1000px) {
+@media (max-width: 600px) {
   
   .sobre-texto, .slogan {
     padding-top: 60%;
   }
 }
 
+@media (min-width: 601px) {
+  .slogan {
+    padding-top: 40%;
+  }
+}
 
 
