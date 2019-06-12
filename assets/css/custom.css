@@ -31,6 +31,7 @@ h1{
 /* navbar */
 #header {
   position: fixed;
+  height:   80px;
   left: 0;
   z-index: 9999;
   width: 100%;
@@ -469,5 +470,13 @@ h1{
     padding-top: 40%;
   }
 }
+
+@media (min-width: 1000px) {
+  .logo {
+    max-width:  15%;
+  }
+}
+
+
 
 
