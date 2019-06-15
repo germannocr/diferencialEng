@@ -14,26 +14,11 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-	<script>
-		// Hamburguer Menu Nav
-		var mobileBtn = document.querySelector('.mobile-btn');
-				var menu = document.querySelector('.menu');
-				var closeBtn = document.querySelector('.close');
-				//var overlay = document.querySelector('.overlay');
-
-				mobileBtn.addEventListener('click', function () {
-					menu.className += ' open';
-					//overlay.className += ' open';
-				})
-
-				closeBtn.addEventListener('click', function () {
-					menu.className = 'menu ul-menu';
-					overlay.className = 'overlay';
-				})
-	</script>
+	 
 </head>
 
 <body>
+		
 	<header>
 		<nav id="header" class="main-nav">
 
@@ -593,7 +578,23 @@
 	</footer>
 
 
-
+	<script>
+			// Hamburguer Menu Nav
+			var mobileBtn = document.querySelector('.mobile-btn');
+					var menu = document.querySelector('.menu');
+					var closeBtn = document.querySelector('.close');
+					//var overlay = document.querySelector('.overlay');
+	
+					mobileBtn.addEventListener('click', function () {
+						menu.className += ' open';
+						//overlay.className += ' open';
+					})
+	
+					closeBtn.addEventListener('click', function () {
+						menu.className = 'menu ul-menu';
+						overlay.className = 'overlay';
+					})
+		</script>
 
 	
 </body>
